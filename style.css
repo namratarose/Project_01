@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+} 
+
+#navbar {
+    overflow: hidden;
+    background-image: url(bg_img1.jpg);
+    background-size: cover;
+    margin: 0;
+    transition: 0.8s;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+#home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#scroll {
+    margin: 70%;
+}
