@@ -1,11 +1,15 @@
 body {
     margin: 0;
     scroll-behavior: smooth;
-} 
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
 
 #navbar {
     overflow: hidden;
-    background-image: url(bg_img1.jpg);
+    background-image: url(resources/bg_img1.jpg);
     background-size: cover;
     margin: 0;
     transition: 0.8s;
