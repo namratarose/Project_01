@@ -7,7 +7,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-#navbar {
+#Sliding_Window {
     overflow: hidden;
     background-image: url(resources/bg_img1.jpg);
     background-size: cover;
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
     z-index: 10;
 }
 
-#home {
+#Main_Screen {
     position: fixed;
     top: 0;
     left: 0;
@@ -29,6 +29,6 @@ body::-webkit-scrollbar {
     background-color: antiquewhite;
 }
 
-#scroll {
+#for_scroll {
     margin: 70%;
 }
