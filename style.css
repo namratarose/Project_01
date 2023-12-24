@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
 }
@@ -37,7 +36,7 @@ body::-webkit-scrollbar {
 /*Navbar*/
 
 .navbar{
-    height:100px;
+    height:60px;
     background-color: white;
     display: flex;
     justify-content: space-between;
